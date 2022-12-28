@@ -6,5 +6,9 @@ def test_fizzbuzz():
     
     >>> fizzbuzz([15, 30, 45])
     ['fizzbuzz', 'fizzbuzz', 'fizzbuzz']
+
+    >>> fizzbuzz([3, 6, 9, 12])
+    ['fizz', 'fizz', 'fizz', 'fizz']
+    
     """
 test_fizzbuzz()
