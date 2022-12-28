@@ -4,4 +4,7 @@ def test_fizzbuzz():
     """Implementing Fizzbuzz algorithm with TDD (Test Driven Development) in mind
     >>> from fizzbuzz import fizzbuzz
     
+    >>> fizzbuzz([15, 30, 45])
+    ['fizzbuzz', 'fizzbuzz', fizzbuzz']
     """
+test_fizzbuzz()
