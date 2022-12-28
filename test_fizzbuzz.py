@@ -5,6 +5,6 @@ def test_fizzbuzz():
     >>> from fizzbuzz import fizzbuzz
     
     >>> fizzbuzz([15, 30, 45])
-    ['fizzbuzz', 'fizzbuzz', fizzbuzz']
+    ['fizzbuzz', 'fizzbuzz', 'fizzbuzz']
     """
 test_fizzbuzz()
