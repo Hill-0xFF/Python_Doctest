@@ -6,7 +6,10 @@ def fizzbuzz(numbers: int) -> list[str]:
         
         elif num % 3 == 0:
             results.append('fizz')
-            
+
+        elif num % 5 == 0:
+            results.append('buzz')
+        
         else:
             results.append(num)
     return results
